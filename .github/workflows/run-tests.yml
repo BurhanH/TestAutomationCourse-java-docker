@@ -23,3 +23,15 @@ jobs:
 
     - name: Test
       run: mvn test
+      
+    - name: Create test summary
+      uses: test-summary/action@v1.0
+      with:
+        paths: target/surefire-reports/*.xml
+      if: always()
+      
+    - name: Publish Test Results
+      uses: EnricoMi/publish-unit-test-result-action@v1
+      if: always()
+      with:
+        files: "target/surefire-reports/*.xml"
