@@ -17,3 +17,6 @@ Sample repository based on Java and Docker
 ## How to run tests in Docker container (use public image)
 - docker run burazalinov/java-docker
 - docker run burazalinov/java-docker test -Dtest=SomeTasksTests
+
+## Copyrights
+[snysmymric](https://github.com/snysmymric) shared the [codebase](/src) for this repository.
