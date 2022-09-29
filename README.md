@@ -19,4 +19,4 @@ Sample repository based on Java and Docker
 - docker run burazalinov/java-docker test -Dtest=SomeTasksTests
 
 ## Copyrights
-[snysmymric](https://github.com/snysmymric) shared the [codebase](/src) for this repository.
+[snysmymric](https://github.com/snysmymric) and [ViktorPodgornov](https://github.com/ViktorPodgornov) shared the [codebase](/src) for this repository.
